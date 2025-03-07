@@ -1,7 +1,9 @@
 # GNURADIO_LABCOMUIS_2025_1_E1B_G3
 **PRÁCTICA 1C**
 
-Nestor 
+Nestor Santiago Ulloa Reyes  2215739
+
+Juana Valentina Medina Caro  2215586
 
 **Práctica 1C. Mediciones de potencia y frecuencia**
 
@@ -49,52 +51,31 @@ Analizador de Espectros R&S FPC1000: Identificar el rango de frecuencia, resoluc
 
 **Evidencia**
 
-Lista con las 5 especificaciones más relevantes de cada equipo.
+Especificaciones más relevantes de cada equipo.
 
 **USRP 2920**:
 
-* Rango de frecuencia: 50 MHz a 2.2 GHz
-* Ancho de banda de transmisión: hasta 20 MHz
-* Potencia máxima de salida TX: +20 dBm
-* Nivel máximo de entrada RX: -15 dBm
-* Impedancia de puertos RF: 50 ohmios
-
-**Información adicional**:
-
-* **Rango de frecuencia**: 50 MHz a 2.2 GHz
-* **Ganancia configurable**: 0 dB a 31.5 dB, en pasos de 0.5 dB
+* Rango de frecuencia de operación: 50 MHz - 2.2 GHz.
+* Ancho de banda de transmisión: hasta 20 MHz.
+* Potencia máxima de salida TX: +20 dBm.
+* Nivel máximo de entrada RX: -15 dBm.
+* Tasa de muestreo: 25 MS/s.
 
 **Analizador de Espectros R&S FPC1000**:
 
-* Rango de frecuencia: 5 kHz a 1 GHz (ampliable a 3 GHz)
-* Ancho de banda de resolución (RBW): desde 1 Hz
+* Rango de frecuencia: 5 kHz - 1 GHz.
+* Ancho de banda de resolución (RBW): desde 1 Hz - 1 MHz.
 * Pantalla: 10.1" WXGA (1366 × 768 píxeles)
-* Preamplificador integrado
+* Rango de entrada: -145 dBm - 20 dBm.
 * Impedancia de entrada RF: 50 ohmios
 
-Información adicional:
+**Osciloscopio RTB 2004**:
 
-* **Rango de frecuencia**: 5 kHz a 1 GHz, ampliable a 3 GHz
-* **Ancho de banda de resolución (RBW)**: ajustable desde 1 Hz hasta 3 MHz **figura de ruido**: aunque la figura de ruido específica no se proporciona en las fuentes disponibles, el analizador presenta un nivel de ruido equivalente en banda (DANL) de hasta –158 dBm/Hz a 1 GHz, lo que indica una alta sensibilidad para la detección de señales débiles.
-
-**Osciloscopio UNI-T UTD2102CEX**:
-
-* Ancho de banda: 100 MHz
-* Número de canales: 2
-* Tasa de muestreo en tiempo real: 1 GSa/s
-* Impedancia de entrada: 1 MΩ en paralelo con 24 pF
-* Tensión máxima de entrada: 400 V (pico)
-
-Información adicional:
-
-* **Ancho de banda máximo**: 300 MHz
-* **Resolución vertical**: 10 bits
-* **Tipos de mediciones soportadas**:
-* Mediciones automáticas de parámetros como voltaje pico a pico, frecuencia, periodo, tiempo de subida y bajada
-* Análisis de formas de onda
-* Análisis de protocolos de comunicación serial
-* Funciones matemáticas avanzadas
-* Análisis espectral
+* Ancho de banda: 70 MHz - 300 MHz.
+* Número de canales: 2.
+* Tasa de muestreo en tiempo real: 2.5 GS/s
+* Frecuencia: Hasta 25 MHz.
+* Tensión máxima de entrada: 400 V (pico).
 
 **Medición de piso de ruido normalizado.**
 
