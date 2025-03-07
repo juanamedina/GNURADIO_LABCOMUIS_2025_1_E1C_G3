@@ -1,6 +1,7 @@
-# GNURADIO_LABCOMUIS_2025_1_E1B_G1
+# GNURADIO_LABCOMUIS_2025_1_E1B_G3
 **PRÁCTICA 1C**
 
+Nestor 
 
 **Práctica 1C. Mediciones de potencia y frecuencia**
 
