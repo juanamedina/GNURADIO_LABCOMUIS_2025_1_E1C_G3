@@ -97,7 +97,7 @@ Información adicional:
 
 **Medición de piso de ruido normalizado.**
 
-![Foto de referencia](imagenes2_p1/image1.jpeg)
+![Foto de referencia] (imagenes2_p1/image1.jpeg)
 
 
 **El piso de ruido normalizado se calcula usando la ecuación:**
