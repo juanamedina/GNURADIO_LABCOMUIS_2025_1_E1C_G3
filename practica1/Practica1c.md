@@ -285,15 +285,21 @@ Determinar la máxima potencia de transmisión.
 Amplitud 1; offset 0:
 
 Onda cuadrada a 6.4 kHz
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image20.png)
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image21.png)
 
 Onda triangular a 6.4 kHz
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image22.png)
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image23.png)
 
 Onda triangular a 9.5 kHz
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image24.png)
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image25.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
