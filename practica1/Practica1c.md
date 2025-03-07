@@ -97,7 +97,7 @@ Información adicional:
 
 **Medición de piso de ruido normalizado.**
 
-![Foto de referencia]([imagenes2_p1/image1.jpeg](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image1.jpeg))
+![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image1.jpeg)
 
 
 **El piso de ruido normalizado se calcula usando la ecuación:**
