@@ -114,30 +114,30 @@ Se realizan capturas de pantalla de las señales generadas en el simulador GNUra
 
  **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
-DATO DE LA FUENTE TIPO COMPLEJO
+Dato tipo complejo, en este tipo de dato se encuentra componente imaginaria.
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image2.png)
 
 
-DATO DE LA FUENTE TIPO FLOTANTE
+Dato tipo flotante, en este tipo de dato no hay componente imaginaria en la señal.
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image3.png)
 
  **LA FORMA DE ONDA** 
  
  
- FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz   
+ONDA TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz)  
  
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image4.png)
  
- FORMA DE ONDA DE SEÑAL COSENO (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
+ ONDA  COSENO (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz)
  
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image5.png)
  
  **LA FRECUENCIA Y FASE DE LA SEÑAL** 
  
 Señal coseno compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula. 
-}
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image6.png)
 
 Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.
@@ -297,11 +297,11 @@ Analizar los resultados obtenidos y sacar conclusiones sobre el comportamiento d
 
  **Comparación de Resultados** 
 
-Los resultados obtenidos en las simulaciones y las transmisiones reales muestran diferencias significativas debido a la presencia de ruido y las limitaciones de los equipos de medición. En la simulación, las señales se generan en un entorno ideal sin interferencias externas, lo que permite observar formas de onda limpias y espectros bien definidos. Sin embargo, en las mediciones reales con el USRP 2920, se observa una degradación de la señal debido a la presencia de ruido, interferencias electromagnéticas y limitaciones en la ganancia y sensibilidad de los dispositivos.  En cuanto a las diferencias entre las mediciones realizadas con el osciloscopio y el analizador de espectros, se destaca que el osciloscopio permite visualizar la señal en el dominio del tiempo, facilitando el análisis de amplitud, fase (solo si se tiene una señal de referencia) y forma de onda. En cambio, el analizador de espectros proporciona información detallada sobre el contenido frecuencial de la señal, permitiendo la medición de parámetros clave como el ancho de banda, la potencia espectral y la relación señal a ruido (SNR), información que valida el concepto de series de Fourier y exponencial compleja. 
+Al hacer implementaciones en el simulador y en equipos reales, es posible notar algunas diferencias; especialmente en las distorsiones que se pueden llegar a generar. Mientras en las simulaciones las señales se encuentran en condiciones "ideales" y el estudiante es quien controla las caracteristicas de la onda, en las implementaciones con los equipos se evidencian las distorsiones de ruido, variacines por los equipos, entre otros casos.
 
 **Reflexión sobre la SNR** 
 
- La relación señal a ruido (SNR) es un parámetro fundamental en las comunicaciones inalámbricas, ya que determina la calidad y fiabilidad de la transmisión de datos. Una SNR elevada indica que la señal es claramente distinguible del ruido, lo que permite una mejor decodificación y menor tasa de errores en la recepción de información.  El piso de ruido tiene un impacto directo en la capacidad de detectar señales débiles. Un piso de ruido elevado reduce la sensibilidad del sistema, dificultando la recepción de señales de baja potencia. En nuestras mediciones, se observó que la SNR variaba según el tipo de señal y el entorno de medición, con valores máximos de aproximadamente 62 dB en señales triangulares y mínimos de 34.76 dB en transmisiones FM, donde el ruido de fondo es más notable. 
+Este parametro en el campo de comunicaciones contempla una alta importancia, esto debiado a la relación que hace entre la potencia de señal limpia frente a la potencia del ruido existente en la señal. Es importante considerar este concepto en los sistemas ya que permite mejor calidad de la señal, un canal más amplio para el paso de la información, además de eficiencia energetica más alta, lo cual beneficia las aplicaciones. Sin embargo también se debe tener en cuenta el piso de ruido, el cual afecta direcctamente al SNR, siendo este un concepto importante ya que determina el nivel más bajo de ruido presente en la señal y esto puede afectar el rendimiento que tenga el sistema.
  
  **Conclusiones Finales** 
  
