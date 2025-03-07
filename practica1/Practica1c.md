@@ -234,8 +234,8 @@ Potencia señal transmitida:
 ***BW=10.279 kHz***
 
 *2) señal cosenoidal (tipo complejo)*
-![Foto de referencia](imagenes2_p1/image16.jpeg)
-![Foto de referencia](imagenes2_p1/image15.jpeg)
+![Foto de referencia] (imagenes2_p1/image16.jpeg)
+![Foto de referencia] (imagenes2_p1/image15.jpeg)
 
 
 **SNR:**
