@@ -133,44 +133,44 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
  **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
 DATO DE LA FUENTE TIPO COMPLEJO   
-![Foto de referencia](upmedia/image2.png)
+![Foto de referencia](imagenes2_p1/image2.png)
 
 DATO DE LA FUENTE TIPO FLOTANTE 
-![Foto de referencia](upmedia/image3.png)
+![Foto de referencia](imagenes2_p1/image3.png)
 
  **LA FORMA DE ONDA** 
  
  FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
- ![Foto de referencia](upmedia/image4.png)
+ ![Foto de referencia](imagenes2_p1/image4.png)
  
  FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
- ![Foto de referencia](upmedia/image5.png)
+ ![Foto de referencia](imagenes2_p1/image5.png)
  
  **LA FRECUENCIA Y FASE DE LA SEÑAL** 
  
 Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
-![Foto de referencia](upmedia/image6.png)
+![Foto de referencia](imagenes2_p1/image6.png)
 
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
-![Foto de referencia](upmedia/image7.png)
+![Foto de referencia](imagenes2_p1/image7.png)
 
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
-![Foto de referencia](upmedia/image8.png)
+![Foto de referencia](imagenes2_p1/image8.png)
 
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
-![Foto de referencia](upmedia/image9.png)
+![Foto de referencia](imagenes2_p1/image9.png)
 
  **LA AMPLITUD DE LA SEÑAL GENERADA** 
  
  Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
- ![Foto de referencia](upmedia/image10.png)
+ ![Foto de referencia](imagenes2_p1/image10.png)
  
  Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
- ![Foto de referencia](upmedia/image11.png)
+ ![Foto de referencia](imagenes2_p1/image11.png)
  
  NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA 
  Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
-![Foto de referencia](upmedia/image8.png)
+![Foto de referencia](imagenes2_p1/image8.png)
 
 **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
 
@@ -204,7 +204,7 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
 
 Captura de la señal FM usada para medición de ancho de banda.
 
-![Foto de referencia](upmedia/image12.png)
+![Foto de referencia](imagenes2_p1/image12.png)
 
 Analice y valide los resultados en el dominio de la frecuencia si se modifica:
 
@@ -220,9 +220,9 @@ Mida potencia de la señal transmitida y ancho de banda de diferentes señales g
 
 1. **Señal cuadrada (tipo flotante)**
 
-![Foto de referencia](upmedia/image13.jpg)
+![Foto de referencia](imagenes2_p1/image13.jpg)
 
-![Foto de referencia](upmedia/image14.jpg)
+![Foto de referencia](imagenes2_p1/image14.jpg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
@@ -234,8 +234,8 @@ Potencia señal transmitida:
 ***BW=10.279 kHz***
 
 *2) señal cosenoidal (tipo complejo)*
-![Foto de referencia](upmedia/image16.jpeg)
-![Foto de referencia](upmedia/image15.jpeg)
+![Foto de referencia](imagenes2_p1/image16.jpeg)
+![Foto de referencia](imagenes2_p1/image15.jpeg)
 
 
 **SNR:**
@@ -247,9 +247,9 @@ Potencia señal transmitida:
 ***BW=10 kHz***
 
 *3) señal triangular (tipo flotante)*
-![Foto de referencia](upmedia/image17.png)
+![Foto de referencia](imagenes2_p1/image17.png)
 
-![Foto de referencia](upmedia/image18.jpeg)
+![Foto de referencia](imagenes2_p1/image18.jpeg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−36.93 dBm)−(−99 dBm)=62.07 dB
@@ -263,7 +263,7 @@ Conecte una antena apropiada a la entrada del analizador de espectros y observe 
 
 Determinar la máxima potencia de transmisión.
 
-![Foto de referencia](upmedia/image19.jpeg)
+![Foto de referencia](imagenes2_p1/image19.jpeg)
 
 * Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
 
@@ -285,16 +285,16 @@ Determinar la máxima potencia de transmisión.
 Amplitud 1; offset 0:
 
 Onda cuadrada a 6.4 kHz
-![Foto de referencia](upmedia/image20.png)
-![Foto de referencia](upmedia/image21.png)
+![Foto de referencia](imagenes2_p1/image20.png)
+![Foto de referencia](imagenes2_p1/image21.png)
 
 Onda triangular a 6.4 kHz
-![Foto de referencia](upmedia/image22.png)
-![Foto de referencia](upmedia/image23.png)
+![Foto de referencia](imagenes2_p1/image22.png)
+![Foto de referencia](imagenes2_p1/image23.png)
 
 Onda triangular a 9.5 kHz
-![Foto de referencia](upmedia/image24.png)
-![Foto de referencia](upmedia/image25.png)
+![Foto de referencia](imagenes2_p1/image24.png)
+![Foto de referencia](imagenes2_p1/image25.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
