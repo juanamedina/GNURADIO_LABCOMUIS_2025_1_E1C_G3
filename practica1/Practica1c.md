@@ -133,10 +133,10 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
  **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
 DATO DE LA FUENTE TIPO COMPLEJO   
-![Foto de referencia] (imagenes2_p1/image2.png)
+![Foto de referencia](imagenes2_p1/image2.png)
 
 DATO DE LA FUENTE TIPO FLOTANTE 
-![Foto de referencia] (imagenes2_p1/image3.png)
+![Foto de referencia](imagenes2_p1/image3.png)
 
  **LA FORMA DE ONDA** 
  
@@ -234,8 +234,8 @@ Potencia señal transmitida:
 ***BW=10.279 kHz***
 
 *2) señal cosenoidal (tipo complejo)*
-![Foto de referencia] (imagenes2_p1/image16.jpeg)
-![Foto de referencia] (imagenes2_p1/image15.jpeg)
+![Foto de referencia](imagenes2_p1/image16.jpeg)
+![Foto de referencia](imagenes2_p1/image15.jpeg)
 
 
 **SNR:**
