@@ -1,4 +1,4 @@
-# GNURADIO_LABCOMUIS_2025_1_E1B_G3
+# GNURADIO_LABCOMUIS_2025_1_E1C_G3
 **PRÁCTICA 1C**
 
 Nestor Santiago Ulloa Reyes  2215739
@@ -110,48 +110,61 @@ Modifique el nivel de ruido del modelo de canal y analice el efecto en tiempo y 
 
 **Evidencias**
 
-Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
+Se realizan capturas de pantalla de las señales generadas en el simulador GNUradio en el dominio del tiempo y de la frecuencia.
 
  **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
-DATO DE LA FUENTE TIPO COMPLEJO   
+DATO DE LA FUENTE TIPO COMPLEJO
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image2.png)
 
-DATO DE LA FUENTE TIPO FLOTANTE 
+
+DATO DE LA FUENTE TIPO FLOTANTE
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image3.png)
 
  **LA FORMA DE ONDA** 
  
- FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
+ 
+ FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz   
+ 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image4.png)
  
- FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
+ FORMA DE ONDA DE SEÑAL COSENO (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
+ 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image5.png)
  
  **LA FRECUENCIA Y FASE DE LA SEÑAL** 
  
-Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
+Señal coseno compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula. 
+}
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image6.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image7.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.  
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image8.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image9.png)
 
  **LA AMPLITUD DE LA SEÑAL GENERADA** 
  
- Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
+ Señal coseno compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
+ 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image10.png)
  
- Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
+ Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
+ 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image11.png)
  
  NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA 
- Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
+ Señal coseno compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
+ 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image8.png)
 
 **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
@@ -201,10 +214,12 @@ La amplitud de la señal generada.
 Mida potencia de la señal transmitida y ancho de banda de diferentes señales generadas.
 
 1. **Señal cuadrada (tipo flotante)**
+   
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image13.jpg)
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image14.jpg)
+
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
@@ -215,8 +230,12 @@ Potencia señal transmitida:
 
 ***BW=10.279 kHz***
 
-*2) señal cosenoidal (tipo complejo)*
+
+*2) señal coseno (tipo complejo)*
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image16.jpeg)
+
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image15.jpeg)
 
 
@@ -229,9 +248,11 @@ Potencia señal transmitida:
 ***BW=10 kHz***
 
 *3) señal triangular (tipo flotante)*
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image17.png)
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image18.jpeg)
+
 
 **SNR:**
 SNR = Pseñal - Pruido = (−36.93 dBm)−(−99 dBm)=62.07 dB
@@ -247,9 +268,9 @@ Determinar la máxima potencia de transmisión.
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image19.jpeg)
 
-* Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
+Se utilizan los markers para definir en puntos estrategicos, esto con el fin de obtener las medidas de ancho de banda y la potencia máxima generada por la señal.
 
-**Ancho de banda:** 199.662 kHz (~200 kHz)
+**Ancho de banda:** 199.662 kHz 
 
 **SNR** = Pseñal – Pruido = (−76.50 dBm) − (−111.26 dBm) = 34.76 dB
 
@@ -263,26 +284,6 @@ Determinar la máxima potencia de transmisión.
      + la amplitud de la señal generada.
 
 * Contraste estos resultados con los obtenidos con el analizador de espectros.
-
-Amplitud 1; offset 0:
-
-Onda cuadrada a 6.4 kHz
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image20.png)
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image21.png)
-
-Onda triangular a 6.4 kHz
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image22.png)
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image23.png)
-
-Onda triangular a 9.5 kHz
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image24.png)
-
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image25.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
