@@ -1,6 +1,9 @@
-# GNURADIO_LABCOMUIS_2025_1_E1B_G1
+# GNURADIO_LABCOMUIS_2025_1_E1B_G3
 **PRÁCTICA 1C**
 
+Nestor Santiago Ulloa Reyes  2215739
+
+Juana Valentina Medina Caro  2215586
 
 **Práctica 1C. Mediciones de potencia y frecuencia**
 
@@ -48,52 +51,33 @@ Analizador de Espectros R&S FPC1000: Identificar el rango de frecuencia, resoluc
 
 **Evidencia**
 
-Lista con las 5 especificaciones más relevantes de cada equipo.
+ Especificaciones más relevantes de cada equipo.
 
 **USRP 2920**:
 
-* Rango de frecuencia: 50 MHz a 2.2 GHz
-* Ancho de banda de transmisión: hasta 20 MHz
-* Potencia máxima de salida TX: +20 dBm
-* Nivel máximo de entrada RX: -15 dBm
-* Impedancia de puertos RF: 50 ohmios
-
-**Información adicional**:
-
-* **Rango de frecuencia**: 50 MHz a 2.2 GHz
-* **Ganancia configurable**: 0 dB a 31.5 dB, en pasos de 0.5 dB
+* Rango de frecuencia de operación: 50 MHz - 2.2 GHz.
+* Ancho de banda de transmisión: hasta 20 MHz.
+* Potencia máxima de salida TX: +20 dBm.
+* Nivel máximo de entrada RX: -15 dBm.
+* Muestreo: 25MS/s.
 
 **Analizador de Espectros R&S FPC1000**:
 
-* Rango de frecuencia: 5 kHz a 1 GHz (ampliable a 3 GHz)
-* Ancho de banda de resolución (RBW): desde 1 Hz
+* Rango de frecuencia: 5 kHz - 1 GHz.
+* Ancho de banda de resolución (RBW): desde 1 Hz - 1 Mhz.
 * Pantalla: 10.1" WXGA (1366 × 768 píxeles)
-* Preamplificador integrado
-* Impedancia de entrada RF: 50 ohmios
+* Rango nivel de entrada: -145 dBm - 20 dBm.
+* Impedancia de entrada RF: 50 ohmios.
+  
 
-Información adicional:
+**Osciloscopio RTB 2004:
 
-* **Rango de frecuencia**: 5 kHz a 1 GHz, ampliable a 3 GHz
-* **Ancho de banda de resolución (RBW)**: ajustable desde 1 Hz hasta 3 MHz **figura de ruido**: aunque la figura de ruido específica no se proporciona en las fuentes disponibles, el analizador presenta un nivel de ruido equivalente en banda (DANL) de hasta –158 dBm/Hz a 1 GHz, lo que indica una alta sensibilidad para la detección de señales débiles.
-
-**Osciloscopio UNI-T UTD2102CEX**:
-
-* Ancho de banda: 100 MHz
-* Número de canales: 2
-* Tasa de muestreo en tiempo real: 1 GSa/s
-* Impedancia de entrada: 1 MΩ en paralelo con 24 pF
+* Ancho de banda: 70 MHz - 300 Mhz
+* Alta resolución
+* Tasa de muestreo en tiempo real: 2.5 GS/s
+* Frecuencia: 25 Mhz.
 * Tensión máxima de entrada: 400 V (pico)
 
-Información adicional:
-
-* **Ancho de banda máximo**: 300 MHz
-* **Resolución vertical**: 10 bits
-* **Tipos de mediciones soportadas**:
-* Mediciones automáticas de parámetros como voltaje pico a pico, frecuencia, periodo, tiempo de subida y bajada
-* Análisis de formas de onda
-* Análisis de protocolos de comunicación serial
-* Funciones matemáticas avanzadas
-* Análisis espectral
 
 **Medición de piso de ruido normalizado.**
 
@@ -104,7 +88,7 @@ Información adicional:
 
 Piso de Ruido Normalizado = Potencia del ruido - 10log(RBW).
 
-Sustituyendo los valores dados: -100 dB - 10log(30). Calculamos 10log(30), que es aproximadamente 14.77. Entonces, el piso de ruido normalizado es -100 - 14.77, lo que da aproximadamente **-114.8 dB.**
+Sustituyendo los valores dados: -100 dB - 10log(30). Calculamos 10log(30), lo cual es aproximadamente 14.77. Entonces, el piso de ruido normalizado es -100 - 14.77, lo que da aproximadamente **-114.8 dB.**
 
 **Actividad 2: Simulación de Señales en GNU Radio**
 
@@ -128,7 +112,8 @@ Modifique el nivel de ruido del modelo de canal y analice el efecto en tiempo y 
 
 **Evidencias**
 
-Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
+Se toman capturas de pantalla de las señales simuladas en el software GNUradio, las cuales se encuentran en el dominio del tiempo y de la frecuencia.
+
 
  **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
@@ -140,36 +125,36 @@ DATO DE LA FUENTE TIPO FLOTANTE
 
  **LA FORMA DE ONDA** 
  
- FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
+ FORMA DE ONDA DE UNA SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image4.png)
  
- FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
+ FORMA DE ONDA DE UNA SEÑAL COSENO (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image5.png)
  
  **LA FRECUENCIA Y FASE DE LA SEÑAL** 
  
-Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
+Onda coseno compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image6.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image7.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image8.png)
 
-Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
+Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image9.png)
 
  **LA AMPLITUD DE LA SEÑAL GENERADA** 
  
- Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
+ Señal coseno compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image10.png)
  
- Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
+ Señal coseno compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
  ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image11.png)
  
  NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA 
- Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
+ Señal coseno compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image8.png)
 
 **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
@@ -233,8 +218,11 @@ Potencia señal transmitida:
 
 ***BW=10.279 kHz***
 
-*2) señal cosenoidal (tipo complejo)*
+*2) señal coseno (tipo complejo)*
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image16.jpeg)
+
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image15.jpeg)
 
 
@@ -247,6 +235,8 @@ Potencia señal transmitida:
 ***BW=10 kHz***
 
 *3) señal triangular (tipo flotante)*
+
+
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image17.png)
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image18.jpeg)
@@ -265,7 +255,7 @@ Determinar la máxima potencia de transmisión.
 
 ![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image19.jpeg)
 
-* Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
+Se usan los markers presentes en el analizador de espectros, ubicandolos en puntos estrategicos que permitan obtener el ancho de banda y la potencia máxima transmitida por la señal de radio.
 
 **Ancho de banda:** 199.662 kHz (~200 kHz)
 
@@ -279,22 +269,6 @@ Determinar la máxima potencia de transmisión.
      + la forma de onda
      + la frecuencia y fase de la señal
      + la amplitud de la señal generada.
-
-* Contraste estos resultados con los obtenidos con el analizador de espectros.
-
-Amplitud 1; offset 0:
-
-Onda cuadrada a 6.4 kHz
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image20.png)
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image21.png)
-
-Onda triangular a 6.4 kHz
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image22.png)
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image23.png)
-
-Onda triangular a 9.5 kHz
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image24.png)
-![Foto de referencia](https://github.com/juanamedina/GNURADIO_LABCOMUIS_2025_1_E1C_G3/blob/main/imagenes2_p1/image25.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
