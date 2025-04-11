@@ -1,3 +1,10 @@
+# Integrantes:
+
+Nestor Santiago Ulloa Reyes
+
+Juana Valentina Medina Caro 2215586 
+
+
 # Práctica 2A. Modelo de canal
 
 ## Objetivos
@@ -17,11 +24,6 @@ Este enfoque permitirá no solo verificar la teoría, sino también desarrollar 
 - **Cables y conectores:** Para interconexión de equipos.
 - **Audífonos y micrófono** (opcional, debe traerlo cada grupo)
 
-### Ajustes preliminares
-
-- En el [flujograma](filters_flowgraph.grc) propuesto para esta práctica, se incluye un bloque "Wav File Source". **Antes** de ejecutar el flujograma, seleccione un archivo WAV para ser usado por este bloque. Algunos archivos WAV de ejemplo los puede encontrar en: [LabComUIS/samples/](../../samples/) 
-- Tenga en cuenta que existen instrumentos de visualización en dominio tiempo y frecuencia tanto para la señal ANTES como DESPUÉS del filtro.
----
 
 ## Actividad 1: Actividades de simulación de canal en GNU Radio
 
@@ -52,9 +54,9 @@ Familiarizarse con algunos fenómenos de canal en un ambiente simulado.
 
 ### Evidencia
 
-*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
+En el simulador GNU Radio, se simulan distintas formas de onda, las cuales pasan através de un filtro. A continuación se analizan las señales generadas en cada uno de los casos.
 
----
+
 
 ## Actividad 2: Fenómenos de canal en el osciloscopio
 
